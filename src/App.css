@@ -1,0 +1,49 @@
+body{
+  background-color: darkgrey;
+}
+.main__add-menber{
+  background-color: #ffffff;
+  display: grid;
+  place-content: center;
+  
+  margin: 4rem;
+  padding: 10px;
+  grid-template-columns: minmax(200px, 1fr) 1fr;
+
+
+}
+
+.btn-create{
+  background-color: #d6651a;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: .9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkbox-circular{
+border-radius: 5px;
+border: 1px solid #d6651a;
+}
+.btn-close{
+  background-color: #585451;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: .9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subtitle{
+  color: #d6651a;
+}
+
+.btn-section{
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr;
+}
+
